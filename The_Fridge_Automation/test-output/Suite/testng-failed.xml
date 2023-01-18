@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BaseClass(failed)">
+    <classes>
+      <class name="Test_Regression.LoginPage">
+        <methods>
+          <include name="Invalid_email"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- Test_Regression.LoginPage -->
+    </classes>
+  </test> <!-- BaseClass(failed) -->
+</suite> <!-- Failed suite [Suite] -->
